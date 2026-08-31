@@ -486,15 +486,14 @@ class Game:
     def _eat_food(self, i: int) -> None:
         self._foods.pop(i)
 
+        if self._reversal_enabled:
+            self._snake.reverse()
         if self._teleport_enabled and self._foods:
             idx = i % len(self._foods)
             self._snake.body[-1] = self._foods[idx]
             self._foods.pop(idx)
             if self._has_space():
                 self._foods.append(self._random_pos())
-
-        if self._reversal_enabled:
-            self._snake.reverse()
 
         if self._walls_enabled and self._has_space():
             self._walls.append(self._random_pos())
