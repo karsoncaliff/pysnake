@@ -468,6 +468,10 @@ class Game:
         return taken < total
 
     def _is_empty(self, pos: pg.Vector2) -> bool:
+        if self._stones_enabled:
+            for stone in self._stones:
+                if pos == stone.position:
+                    return False
         return pos not in self._snake.body and pos not in self._walls
 
     def _random_pos(self) -> pg.Vector2:
