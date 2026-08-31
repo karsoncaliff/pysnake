@@ -224,3 +224,4 @@ __marimo__/
 # Custom
 .idea/
 settings.json
+uv.lock

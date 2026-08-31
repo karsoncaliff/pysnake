@@ -1,0 +1,15 @@
+[project]
+name = "pysnake"
+description = "A feature-rich, highly polished, and customizable Snake game"
+authors = ["Karson P. Califf <karsoncaliff@gmail.com>"]
+keywords = ["pygame", "game"]
+readme = "README.md"
+license = "GPLv3"
+license-files = ["LICENSE"]
+urls = ["https://github.com/karsoncaliff/pysnake"]
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pygame-ce>=2.5.8",
+    "pygame-menu-ce>=4.5.4",
+]

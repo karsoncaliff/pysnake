@@ -1,7 +1,7 @@
 # PySnake 🐍
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Python 3.10+](https://img.shields.io/badge/python-3.9+-green.svg)](https://www.python.org/downloads)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-green.svg)](https://www.python.org/downloads)
 
 A feature-rich, highly polished, and customizable Snake game built with
 [Python](https://www.python.org/downloads), [pygame-ce](https://github.com/pygame-community/pygame-ce),
