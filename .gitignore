@@ -221,5 +221,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# IDE
+# Custom
 .idea/
+settings.json
