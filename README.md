@@ -26,7 +26,7 @@ gameplay rule modifiers.
 ## Dependencies
 
 - [Python 3.10+](https://www.python.org/downloads)
-- [pygame-ce`]([pygame-ce](https://github.com/pygame-community/pygame-ce))
+- [pygame-ce]([pygame-ce](https://github.com/pygame-community/pygame-ce))
 - [pygame-menu]([pygame-menu](https://github.com/ppizarror/pygame-menu))
 
 ---
